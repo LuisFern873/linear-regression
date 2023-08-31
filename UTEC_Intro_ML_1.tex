@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Primer Laboratorio de Introduction to Machine Learning}
+\author{Universidad de Ingenieria y Tecnologia (UTEC) -- Lima, Peru}
+\date{August 2023 -- Seccion Profesor Arturo Deza}
+
+\begin{document}
+
+\maketitle
+\small
+
+\section*{Tema de Laboratorio : Linear Regression}
+
+\textbf{Alumnos/as : NOMBRES}
+
+\begin{enumerate}
+%20
+\item [5 points] What is your dataset ? \textit{(Cual es tu dataset?)}
+%15
+\item [2 points] What is your regression problem? \textit{(Cual es el problema de regresion que estas resolviendo?) [Ejemplo : Prediccion de Valor de Propiedades]} | Nota: No puede ser un dataset de prediccion de valor de propiedades inmobiliarias.
+%13
+\item [0.5 points] How many data points are there in the dataset? Nota : Minimo 100 data points; Maximo 10'000 data points. \textit{(Cuantos data points tiene tu data?)}
+\item [1 points] What is the $\beta$ term assuming a zero-th point intersection (no bias) \textit{(Cual es el $\beta$ asumiendo que cruza el origen?)}
+\item [2 points] What is the bias term \textit{not} assuming a zero-th point intersection (bias included) \textit{(Cual es el $\beta$ asumiendo que no cruza el origen?)}
+\item [0.5 points] What are the number of independent variables (minimum 1, maximum 2) [Nota: 2 puntos extra si hacen regresion de variable multiple con 2 variables; y la recta de regresion sera un plano! :O], and what are they? \textit{(Cual es el numero de variables independientes?)}
+%9
+\item [0.5 points] What is the dependent variable? \textit{(Cual es la variable dependiente?)}
+\item [0.5 points] What are the units of measurement for each variable(s)? \textit{(Cuales son las unidades de medicion para cada variable?)}
+%8
+\item [3 points] Please plot the raw data and a superimposing line on the data that passes through the origin. What is the mean square error (MSE)? \textit{(Por favor plottear la data original superimponiendo la recta de regresion que pasa por el origin. Cual es el error promedio cuadratico?)}
+
+\item [2 points] Please plot the raw data and a superimposing line on the data that does not pass through the origin. What is the mean square error (MSE)? \textit{(Por favor plottear la data original superimponiendo la recta de regresion que no pasa por el origin. Cual es el error promedio cuadratico?)}
+
+\item [3 points] Repeat the regression line randomly 100 times. At each iteration randomly remove with replacement one data point and perform a regression. What are the average $\beta$ values found for both cases where the fitting is done by fitting it through the origin (bias removed), and not fitting it through the origin (bias included). Hint : Look-up statistical bootstrapping. \textit{(Repetir el calculo de regresion 100 veces, donde se remueve 1 data point de forma aleatoriamente uniforme con resubstitucion y volver a hacer la regresion. Cual es el $\beta$ promedio encontrado cuando la regresion se hace con la recta pasando por el origen y no pasando por el origen. Pista: Buscar ``statistical bootstrapping''.)}
+
+\item [Obligatory] Please list in your 2 page report : \textit{(Favor agregar en tu informe de dos paginas)}:
+\begin{enumerate}
+\item The contributions of each author. \textit{(La contribucion de cada autor)}
+\item The list of all the python packages used. \textit{(La lista de todos los paquetes de python y/o otro lenguaje utilizado)}
+\item The list of all toolboxes used (and links to datasets and dataset license) \textit{(La lista de todos los toolboxes utilizados (y links de datasets y licensias de datasets))}
+\item The list of any AI tools (\textit{e.g.} ChatGPT, Perplexity, You) used in your homework and how. \textit{(La lista de todos los asistentes de AI utilizados (ejemplo: ChatGPT, Perplexity, You))}
+\item The list of all academic references used in your homework. \textit{(La lista de todas las referencias academicas en tu tarea )}
+\item Attach a copy of all your code (this may extend 2 pages). \textit{(Agregar una copia de todo to codigo -- esto puede extender 2 paginas)}
+\end{enumerate}
+\end{enumerate}
+
+
+\end{document}
